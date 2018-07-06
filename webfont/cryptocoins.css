@@ -1,0 +1,1350 @@
+/*! Cryptocoins - cryptocurrency icon font | https://github.com/allienworks/cryptocoins */
+
+@font-face {
+  font-family: "cryptocoins";
+  src: url('cryptocoins.woff2') format('woff2'),
+    url('cryptocoins.woff') format('woff'),
+    url('cryptocoins.ttf') format('truetype');
+}
+
+/* .cc:before { */
+.cc::before {
+  font-family: "cryptocoins";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.cc.ADA-alt::before {
+  content: "\E001";
+}
+
+.cc.ADA::before {
+  content: "\E002";
+}
+
+.cc.ADC-alt::before {
+  content: "\E003";
+}
+
+.cc.ADC::before {
+  content: "\E004";
+}
+
+.cc.AEON-alt::before {
+  content: "\E005";
+}
+
+.cc.AEON::before {
+  content: "\E006";
+}
+
+.cc.AMP-alt::before {
+  content: "\E007";
+}
+
+.cc.AMP::before {
+  content: "\E008";
+}
+
+.cc.ANC-alt::before {
+  content: "\E009";
+}
+
+.cc.ANC::before {
+  content: "\E00A";
+}
+
+.cc.ARCH-alt::before {
+  content: "\E00B";
+}
+
+.cc.ARCH::before {
+  content: "\E00C";
+}
+
+.cc.ARDR-alt::before {
+  content: "\E00D";
+}
+
+.cc.ARDR::before {
+  content: "\E00E";
+}
+
+.cc.ARK-alt::before {
+  content: "\E00F";
+}
+
+.cc.ARK::before {
+  content: "\E010";
+}
+
+.cc.AST::before {
+  content: "\E011";
+}
+
+.cc.AUR-alt::before {
+  content: "\E012";
+}
+
+.cc.AUR::before {
+  content: "\E013";
+}
+
+.cc.BANX-alt::before {
+  content: "\E014";
+}
+
+.cc.BANX::before {
+  content: "\E015";
+}
+
+.cc.BAT-alt::before {
+  content: "\E016";
+}
+
+.cc.BAT::before {
+  content: "\E017";
+}
+
+.cc.BAY-alt::before {
+  content: "\E018";
+}
+
+.cc.BAY::before {
+  content: "\E019";
+}
+
+.cc.BC-alt::before {
+  content: "\E01A";
+}
+
+.cc.BLK-alt::before {
+  content: "\E01A";
+}
+
+.cc.BC::before {
+  content: "\E01B";
+}
+
+.cc.BLK::before {
+  content: "\E01B";
+}
+
+.cc.BCC::before {
+  content: "\E01C";
+}
+
+.cc.BCH-alt::before {
+  content: "\E01D";
+}
+
+.cc.BCC-alt::before {
+  content: "\E01D";
+}
+
+.cc.BCH::before {
+  content: "\E01E";
+}
+
+.cc.BCC::before {
+  content: "\E01E";
+}
+
+.cc.BCN-alt::before {
+  content: "\E01F";
+}
+
+.cc.BCN::before {
+  content: "\E020";
+}
+
+.cc.BCY::before {
+  content: "\E021";
+}
+
+.cc.BELA::before {
+  content: "\E022";
+}
+
+.cc.BFT-alt::before {
+  content: "\E023";
+}
+
+.cc.BFT::before {
+  content: "\E024";
+}
+
+.cc.BLZ::before {
+  content: "\E025";
+}
+
+.cc.BNB::before {
+  content: "\E026";
+}
+
+.cc.BRK-alt::before {
+  content: "\E027";
+}
+
+.cc.BRK::before {
+  content: "\E028";
+}
+
+.cc.BRX-alt::before {
+  content: "\E029";
+}
+
+.cc.BRX::before {
+  content: "\E02A";
+}
+
+.cc.BSD-alt::before {
+  content: "\E02B";
+}
+
+.cc.BSD::before {
+  content: "\E02C";
+}
+
+.cc.BTA::before {
+  content: "\E02D";
+}
+
+.cc.BTC-alt::before {
+  content: "\E02E";
+}
+
+.cc.BTC::before {
+  content: "\E02F";
+}
+
+.cc.BTCD-alt::before {
+  content: "\E030";
+}
+
+.cc.BTCD::before {
+  content: "\E031";
+}
+
+.cc.BTCP-alt::before {
+  content: "\E032";
+}
+
+.cc.BTCP::before {
+  content: "\E033";
+}
+
+.cc.BTG::before {
+  content: "\E034";
+}
+
+.cc.BTM-alt::before {
+  content: "\E035";
+}
+
+.cc.BTM::before {
+  content: "\E036";
+}
+
+.cc.BTS-alt::before {
+  content: "\E037";
+}
+
+.cc.BTS::before {
+  content: "\E038";
+}
+
+.cc.BURST::before {
+  content: "\E039";
+}
+
+.cc.CLAM-alt::before {
+  content: "\E03A";
+}
+
+.cc.CLAM::before {
+  content: "\E03B";
+}
+
+.cc.CLOAK-alt::before {
+  content: "\E03C";
+}
+
+.cc.CLOAK::before {
+  content: "\E03D";
+}
+
+.cc.CVC::before {
+  content: "\E03E";
+}
+
+.cc.DAO-alt::before {
+  content: "\E03F";
+}
+
+.cc.DAO::before {
+  content: "\E040";
+}
+
+.cc.DASH-alt::before {
+  content: "\E041";
+}
+
+.cc.DASH::before {
+  content: "\E042";
+}
+
+.cc.DCR-alt::before {
+  content: "\E043";
+}
+
+.cc.DCR::before {
+  content: "\E044";
+}
+
+.cc.DCT-alt::before {
+  content: "\E045";
+}
+
+.cc.DCT::before {
+  content: "\E046";
+}
+
+.cc.DGB-alt::before {
+  content: "\E047";
+}
+
+.cc.DGB::before {
+  content: "\E048";
+}
+
+.cc.DGD::before {
+  content: "\E049";
+}
+
+.cc.DGX::before {
+  content: "\E04A";
+}
+
+.cc.DMD-alt::before {
+  content: "\E04B";
+}
+
+.cc.DMD::before {
+  content: "\E04C";
+}
+
+.cc.DOGE-alt::before {
+  content: "\E04D";
+}
+
+.cc.DOGE::before {
+  content: "\E04E";
+}
+
+.cc.EMC-alt::before {
+  content: "\E04F";
+}
+
+.cc.EMC::before {
+  content: "\E050";
+}
+
+.cc.EMC2::before {
+  content: "\E051";
+}
+
+.cc.EOS-alt::before {
+  content: "\E052";
+}
+
+.cc.EOS::before {
+  content: "\E053";
+}
+
+.cc.ERC-alt::before {
+  content: "\E054";
+}
+
+.cc.ERC::before {
+  content: "\E055";
+}
+
+.cc.ETC-alt::before {
+  content: "\E056";
+}
+
+.cc.ETC::before {
+  content: "\E057";
+}
+
+.cc.ETH-alt::before {
+  content: "\E058";
+}
+
+.cc.ETH::before {
+  content: "\E059";
+}
+
+.cc.EXP::before {
+  content: "\E05A";
+}
+
+.cc.FC2-alt::before {
+  content: "\E05B";
+}
+
+.cc.FC2::before {
+  content: "\E05C";
+}
+
+.cc.FCT-alt::before {
+  content: "\E05D";
+}
+
+.cc.FCT::before {
+  content: "\E05E";
+}
+
+.cc.FLDC::before {
+  content: "\E05F";
+}
+
+.cc.FLO-alt::before {
+  content: "\E060";
+}
+
+.cc.FLO::before {
+  content: "\E061";
+}
+
+.cc.FRK-alt::before {
+  content: "\E062";
+}
+
+.cc.FRK::before {
+  content: "\E063";
+}
+
+.cc.FTC-alt::before {
+  content: "\E064";
+}
+
+.cc.FTC::before {
+  content: "\E065";
+}
+
+.cc.FUN::before {
+  content: "\E066";
+}
+
+.cc.GAME-alt::before {
+  content: "\E067";
+}
+
+.cc.GAME::before {
+  content: "\E068";
+}
+
+.cc.GBYTE-alt::before {
+  content: "\E069";
+}
+
+.cc.GBYTE::before {
+  content: "\E06A";
+}
+
+.cc.GDC-alt::before {
+  content: "\E06B";
+}
+
+.cc.GDC::before {
+  content: "\E06C";
+}
+
+.cc.GEMZ-alt::before {
+  content: "\E06D";
+}
+
+.cc.GEMZ::before {
+  content: "\E06E";
+}
+
+.cc.GLD-alt::before {
+  content: "\E06F";
+}
+
+.cc.GLD::before {
+  content: "\E070";
+}
+
+.cc.GNO-alt::before {
+  content: "\E071";
+}
+
+.cc.GNO::before {
+  content: "\E072";
+}
+
+.cc.GNT-alt::before {
+  content: "\E073";
+}
+
+.cc.GNT::before {
+  content: "\E074";
+}
+
+.cc.GOLOS-alt::before {
+  content: "\E075";
+}
+
+.cc.GOLOS::before {
+  content: "\E076";
+}
+
+.cc.GRC-alt::before {
+  content: "\E077";
+}
+
+.cc.GRC::before {
+  content: "\E078";
+}
+
+.cc.GRS::before {
+  content: "\E079";
+}
+
+.cc.HEAT-alt::before {
+  content: "\E07A";
+}
+
+.cc.HEAT::before {
+  content: "\E07B";
+}
+
+.cc.HSR::before {
+  content: "\E07C";
+}
+
+.cc.HUC::before {
+  content: "\E07D";
+}
+
+.cc.ICN-alt::before {
+  content: "\E07E";
+}
+
+.cc.ICN::before {
+  content: "\E07F";
+}
+
+.cc.ICX::before {
+  content: "\E080";
+}
+
+.cc.IFC-alt::before {
+  content: "\E081";
+}
+
+.cc.IFC::before {
+  content: "\E082";
+}
+
+.cc.INCNT-alt::before {
+  content: "\E083";
+}
+
+.cc.INCNT::before {
+  content: "\E084";
+}
+
+.cc.IOC-alt::before {
+  content: "\E085";
+}
+
+.cc.IOC::before {
+  content: "\E086";
+}
+
+.cc.IOTA-alt::before {
+  content: "\E087";
+}
+
+.cc.IOTA::before {
+  content: "\E088";
+}
+
+.cc.JBS-alt::before {
+  content: "\E089";
+}
+
+.cc.JBS::before {
+  content: "\E08A";
+}
+
+.cc.KMD-alt::before {
+  content: "\E08B";
+}
+
+.cc.KMD::before {
+  content: "\E08C";
+}
+
+.cc.KOBO::before {
+  content: "\E08D";
+}
+
+.cc.KORE-alt::before {
+  content: "\E08E";
+}
+
+.cc.KORE::before {
+  content: "\E08F";
+}
+
+.cc.LBC-alt::before {
+  content: "\E090";
+}
+
+.cc.LBC::before {
+  content: "\E091";
+}
+
+.cc.LDOGE-alt::before {
+  content: "\E092";
+}
+
+.cc.LDOGE::before {
+  content: "\E093";
+}
+
+.cc.LSK-alt::before {
+  content: "\E094";
+}
+
+.cc.LSK::before {
+  content: "\E095";
+}
+
+.cc.LTC-alt::before {
+  content: "\E096";
+}
+
+.cc.LTC::before {
+  content: "\E097";
+}
+
+.cc.MAID-alt::before {
+  content: "\E098";
+}
+
+.cc.MAID::before {
+  content: "\E099";
+}
+
+.cc.MARKS::before {
+  content: "\E09A";
+}
+
+.cc.Bitmark::before {
+  content: "\E09A";
+}
+
+.cc.MCO-alt::before {
+  content: "\E09B";
+}
+
+.cc.MCO::before {
+  content: "\E09C";
+}
+
+.cc.MINT-alt::before {
+  content: "\E09D";
+}
+
+.cc.MINT::before {
+  content: "\E09E";
+}
+
+.cc.MONA-alt::before {
+  content: "\E09F";
+}
+
+.cc.MONA::before {
+  content: "\E0A0";
+}
+
+.cc.MRC::before {
+  content: "\E0A1";
+}
+
+.cc.MSC-alt::before {
+  content: "\E0A2";
+}
+
+.cc.MSC::before {
+  content: "\E0A3";
+}
+
+.cc.MTL-alt::before {
+  content: "\E0A4";
+}
+
+.cc.MTL::before {
+  content: "\E0A5";
+}
+
+.cc.MTR-alt::before {
+  content: "\E0A6";
+}
+
+.cc.MTR::before {
+  content: "\E0A7";
+}
+
+.cc.MUE-alt::before {
+  content: "\E0A8";
+}
+
+.cc.MUE::before {
+  content: "\E0A9";
+}
+
+.cc.MYST-alt::before {
+  content: "\E0AA";
+}
+
+.cc.MYST::before {
+  content: "\E0AB";
+}
+
+.cc.NAV::before {
+  content: "\E0AC";
+}
+
+.cc.NBT::before {
+  content: "\E0AD";
+}
+
+.cc.USNBT::before {
+  content: "\E0AD";
+}
+
+.cc.NEO-alt::before {
+  content: "\E0AE";
+}
+
+.cc.NEO::before {
+  content: "\E0AF";
+}
+
+.cc.GAS::before {
+  content: "\E0AF";
+}
+
+.cc.NEOS-alt::before {
+  content: "\E0B0";
+}
+
+.cc.NEOS::before {
+  content: "\E0B1";
+}
+
+.cc.NEU-alt::before {
+  content: "\E0B2";
+}
+
+.cc.NEU::before {
+  content: "\E0B3";
+}
+
+.cc.NLG-alt::before {
+  content: "\E0B4";
+}
+
+.cc.NLG::before {
+  content: "\E0B5";
+}
+
+.cc.NMC-alt::before {
+  content: "\E0B6";
+}
+
+.cc.NMC::before {
+  content: "\E0B7";
+}
+
+.cc.NMR::before {
+  content: "\E0B8";
+}
+
+.cc.NOTE-alt::before {
+  content: "\E0B9";
+}
+
+.cc.NOTE::before {
+  content: "\E0BA";
+}
+
+.cc.NVC-alt::before {
+  content: "\E0BB";
+}
+
+.cc.NVC::before {
+  content: "\E0BC";
+}
+
+.cc.NXT-alt::before {
+  content: "\E0BD";
+}
+
+.cc.NXT::before {
+  content: "\E0BE";
+}
+
+.cc.OK-alt::before {
+  content: "\E0BF";
+}
+
+.cc.OK::before {
+  content: "\E0C0";
+}
+
+.cc.OMG-alt::before {
+  content: "\E0C1";
+}
+
+.cc.OMG::before {
+  content: "\E0C2";
+}
+
+.cc.OMNI-alt::before {
+  content: "\E0C3";
+}
+
+.cc.OMNI::before {
+  content: "\E0C4";
+}
+
+.cc.OPAL-alt::before {
+  content: "\E0C5";
+}
+
+.cc.OPAL::before {
+  content: "\E0C6";
+}
+
+.cc.PART-alt::before {
+  content: "\E0C7";
+}
+
+.cc.PART::before {
+  content: "\E0C8";
+}
+
+.cc.PASC::before {
+  content: "\E0C9";
+}
+
+.cc.PIGGY-alt::before {
+  content: "\E0CA";
+}
+
+.cc.PIGGY::before {
+  content: "\E0CB";
+}
+
+.cc.PINK-alt::before {
+  content: "\E0CC";
+}
+
+.cc.PINK::before {
+  content: "\E0CD";
+}
+
+.cc.PIVX-alt::before {
+  content: "\E0CE";
+}
+
+.cc.PIVX::before {
+  content: "\E0CF";
+}
+
+.cc.POT-alt::before {
+  content: "\E0D0";
+}
+
+.cc.POT::before {
+  content: "\E0D1";
+}
+
+.cc.PPC-alt::before {
+  content: "\E0D2";
+}
+
+.cc.PPC::before {
+  content: "\E0D3";
+}
+
+.cc.PPT::before {
+  content: "\E0D4";
+}
+
+.cc.QRK-alt::before {
+  content: "\E0D5";
+}
+
+.cc.QRK::before {
+  content: "\E0D6";
+}
+
+.cc.QTUM-alt::before {
+  content: "\E0D7";
+}
+
+.cc.QTUM::before {
+  content: "\E0D8";
+}
+
+.cc.RADS-alt::before {
+  content: "\E0D9";
+}
+
+.cc.RADS::before {
+  content: "\E0DA";
+}
+
+.cc.RBIES-alt::before {
+  content: "\E0DB";
+}
+
+.cc.RBIES::before {
+  content: "\E0DC";
+}
+
+.cc.RBT-alt::before {
+  content: "\E0DD";
+}
+
+.cc.RBT::before {
+  content: "\E0DE";
+}
+
+.cc.RBY-alt::before {
+  content: "\E0DF";
+}
+
+.cc.RBY::before {
+  content: "\E0E0";
+}
+
+.cc.RDD-alt::before {
+  content: "\E0E1";
+}
+
+.cc.RDD::before {
+  content: "\E0E2";
+}
+
+.cc.REP-alt::before {
+  content: "\E0E3";
+}
+
+.cc.REP::before {
+  content: "\E0E4";
+}
+
+.cc.RHOC::before {
+  content: "\E0E5";
+}
+
+.cc.RIC::before {
+  content: "\E0E6";
+}
+
+.cc.RISE-alt::before {
+  content: "\E0E7";
+}
+
+.cc.RISE::before {
+  content: "\E0E8";
+}
+
+.cc.SALT-alt::before {
+  content: "\E0E9";
+}
+
+.cc.SALT::before {
+  content: "\E0EA";
+}
+
+.cc.SAR-alt::before {
+  content: "\E0EB";
+}
+
+.cc.SAR::before {
+  content: "\E0EC";
+}
+
+.cc.SCOT-alt::before {
+  content: "\E0ED";
+}
+
+.cc.SCOT::before {
+  content: "\E0EE";
+}
+
+.cc.SDC-alt::before {
+  content: "\E0EF";
+}
+
+.cc.SDC::before {
+  content: "\E0F0";
+}
+
+.cc.SIA-alt::before {
+  content: "\E0F1";
+}
+
+.cc.SIA::before {
+  content: "\E0F2";
+}
+
+.cc.SC::before {
+  content: "\E0F2";
+}
+
+.cc.SJCX-alt::before {
+  content: "\E0F3";
+}
+
+.cc.SJCX::before {
+  content: "\E0F4";
+}
+
+.cc.STORJ::before {
+  content: "\E0F4";
+}
+
+.cc.SLG-alt::before {
+  content: "\E0F5";
+}
+
+.cc.SLG::before {
+  content: "\E0F6";
+}
+
+.cc.SLS-alt::before {
+  content: "\E0F7";
+}
+
+.cc.SLS::before {
+  content: "\E0F8";
+}
+
+.cc.SNRG-alt::before {
+  content: "\E0F9";
+}
+
+.cc.SNRG::before {
+  content: "\E0FA";
+}
+
+.cc.SNT::before {
+  content: "\E0FB";
+}
+
+.cc.START-alt::before {
+  content: "\E0FC";
+}
+
+.cc.START::before {
+  content: "\E0FD";
+}
+
+.cc.STEEM-alt::before {
+  content: "\E0FE";
+}
+
+.cc.STEEM::before {
+  content: "\E0FF";
+}
+
+.cc.SBD::before {
+  content: "\E0FF";
+}
+
+.cc.STRAT-alt::before {
+  content: "\E100";
+}
+
+.cc.STRAT::before {
+  content: "\E101";
+}
+
+.cc.SWIFT-alt::before {
+  content: "\E102";
+}
+
+.cc.SWIFT::before {
+  content: "\E103";
+}
+
+.cc.SYNC-alt::before {
+  content: "\E104";
+}
+
+.cc.SYNC::before {
+  content: "\E105";
+}
+
+.cc.SYS-alt::before {
+  content: "\E106";
+}
+
+.cc.SYS::before {
+  content: "\E107";
+}
+
+.cc.TRIG-alt::before {
+  content: "\E108";
+}
+
+.cc.TRIG::before {
+  content: "\E109";
+}
+
+.cc.TX-alt::before {
+  content: "\E10A";
+}
+
+.cc.TX::before {
+  content: "\E10B";
+}
+
+.cc.UBQ-alt::before {
+  content: "\E10C";
+}
+
+.cc.UBQ::before {
+  content: "\E10D";
+}
+
+.cc.UNITY-alt::before {
+  content: "\E10E";
+}
+
+.cc.UNITY::before {
+  content: "\E10F";
+}
+
+.cc.USDT-alt::before {
+  content: "\E110";
+}
+
+.cc.USDT::before {
+  content: "\E111";
+}
+
+.cc.VERI::before {
+  content: "\E112";
+}
+
+.cc.VET::before {
+  content: "\E113";
+}
+
+.cc.VIA-alt::before {
+  content: "\E114";
+}
+
+.cc.VIA::before {
+  content: "\E115";
+}
+
+.cc.VIOR-alt::before {
+  content: "\E116";
+}
+
+.cc.VIOR::before {
+  content: "\E117";
+}
+
+.cc.VNL-alt::before {
+  content: "\E118";
+}
+
+.cc.VNL::before {
+  content: "\E119";
+}
+
+.cc.VPN-alt::before {
+  content: "\E11A";
+}
+
+.cc.VPN::before {
+  content: "\E11B";
+}
+
+.cc.VRC-alt::before {
+  content: "\E11C";
+}
+
+.cc.VRC::before {
+  content: "\E11D";
+}
+
+.cc.VTC-alt::before {
+  content: "\E11E";
+}
+
+.cc.VTC::before {
+  content: "\E11F";
+}
+
+.cc.WAVES-alt::before {
+  content: "\E120";
+}
+
+.cc.WAVES::before {
+  content: "\E121";
+}
+
+.cc.XAI-alt::before {
+  content: "\E122";
+}
+
+.cc.XAI::before {
+  content: "\E123";
+}
+
+.cc.XBC::before {
+  content: "\E124";
+}
+
+.cc.XBS-alt::before {
+  content: "\E125";
+}
+
+.cc.XBS::before {
+  content: "\E126";
+}
+
+.cc.XCP-alt::before {
+  content: "\E127";
+}
+
+.cc.XCP::before {
+  content: "\E128";
+}
+
+.cc.XEM-alt::before {
+  content: "\E129";
+}
+
+.cc.XEM::before {
+  content: "\E12A";
+}
+
+.cc.XLM-alt::before {
+  content: "\E12B";
+}
+
+.cc.XLM::before {
+  content: "\E12C";
+}
+
+.cc.XMR::before {
+  content: "\E12D";
+}
+
+.cc.XMY::before {
+  content: "\E12E";
+}
+
+.cc.XPM-alt::before {
+  content: "\E12F";
+}
+
+.cc.XPM::before {
+  content: "\E130";
+}
+
+.cc.XRB::before {
+  content: "\E131";
+}
+
+.cc.XRP-alt::before {
+  content: "\E132";
+}
+
+.cc.XRP::before {
+  content: "\E133";
+}
+
+.cc.XTZ-alt::before {
+  content: "\E134";
+}
+
+.cc.XTZ::before {
+  content: "\E135";
+}
+
+.cc.XVC::before {
+  content: "\E136";
+}
+
+.cc.XVG-alt::before {
+  content: "\E137";
+}
+
+.cc.XVG::before {
+  content: "\E138";
+}
+
+.cc.XZC-alt::before {
+  content: "\E139";
+}
+
+.cc.XZC::before {
+  content: "\E13A";
+}
+
+.cc.YBC-alt::before {
+  content: "\E13B";
+}
+
+.cc.YBC::before {
+  content: "\E13C";
+}
+
+.cc.ZEC-alt::before {
+  content: "\E13D";
+}
+
+.cc.ZEC::before {
+  content: "\E13E";
+}
+
+.cc.ZEIT-alt::before {
+  content: "\E13F";
+}
+
+.cc.ZEIT::before {
+  content: "\E140";
+}
+
+.cc.ZRX::before {
+  content: "\E141";
+}
+
+.cc.trx::before {
+  content: "\E142";
+}
